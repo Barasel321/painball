@@ -1,0 +1,14 @@
+replaceitem entity @s[tag=rifleskin1] hotbar.0 carrot_on_a_stick{CustomModelData:10140037,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-9999,Operation:0,UUID:[I;-854802311,1465600793,-1204547883,362896708]}],display:{Name:'{"text":"RIFLER","color":"gold","bold":true,"italic":false,"underlined":true}'},HideFlags:127,rifle:1}
+replaceitem entity @s[tag=shotgunskin1] hotbar.1 carrot_on_a_stick{CustomModelData:10140035,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-9999,Operation:0,UUID:[I;-854802311,1465600793,-1204547883,362896708]}],display:{Name:'{"text":"SHOTGUNNER","color":"gold","bold":true,"italic":false,"underlined":true}'},HideFlags:127,shotgun:1}
+replaceitem entity @s[tag=sniperskin1] hotbar.3 carrot_on_a_stick{CustomModelData:10140039,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-9999,Operation:0,UUID:[I;-854802311,1465600793,-1204547883,362896708]}],display:{Name:'{"text":"SNIPER","color":"gold","bold":true,"italic":false,"underlined":true}'},HideFlags:127,sniper:1}
+replaceitem entity @s[tag=smgskin1] hotbar.7 carrot_on_a_stick{CustomModelData:10140043,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-9999,Operation:0,UUID:[I;-854802311,1465600793,-1204547883,362896708]}],display:{Name:'{"text":"SMG GUY","color":"gold","bold":true,"italic":false,"underlined":true}'},HideFlags:127,smg:1}
+
+
+replaceitem entity @s[tag=!rifleskin1] hotbar.0 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+replaceitem entity @s[tag=!shotgunskin1] hotbar.1 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+replaceitem entity @s[tag=!fusionskin1] hotbar.2 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+replaceitem entity @s[tag=!sniperskin1] hotbar.3 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+replaceitem entity @s[tag=!smgskin1] hotbar.7 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+replaceitem entity @s[tag=!minigunskin1] hotbar.8 carrot_on_a_stick{display:{Name:'{"text":"Not unlocked!","color":"gray","italic":false}'},CustomModelData:10140000,locked:1}
+
+title @s actionbar ["",{"text":"Hide Skins ","color":"gold"},{"text":"[","bold":true,"color":"dark_purple"},{"translate":"key.drop","bold":true,"color":"gold"},{"text":"]","bold":true,"color":"dark_purple"}]

@@ -1,0 +1,22 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "red": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags: [\"flagred\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "red"
+        ]
+    ],
+    "rewards": {
+        "function": "sfa:mode/ctf/flagred"
+    }
+}

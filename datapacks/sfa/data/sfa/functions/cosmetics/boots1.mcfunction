@@ -1,0 +1,2 @@
+replaceitem entity @s[team=red] armor.feet leather_boots{display:{color:11546150},HideFlags:127,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I;1308565363,-702788251,-1115839037,-359084844],Slot:"feet"}]}
+replaceitem entity @s[team=blue] armor.feet leather_boots{display:{color:3847130},HideFlags:127,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I;1308565363,-702788251,-1115839037,-359084854],Slot:"feet"}]}

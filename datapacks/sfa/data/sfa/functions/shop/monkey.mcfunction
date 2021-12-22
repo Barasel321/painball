@@ -1,0 +1,1 @@
+tellraw @s "Monkey, you already have this"
