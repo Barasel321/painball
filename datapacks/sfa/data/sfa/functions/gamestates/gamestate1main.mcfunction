@@ -27,9 +27,7 @@ execute if score .mode global matches 3 run function sfa:mode/headhunter/main
 
 #cosmetic funcs
 execute as @a[tag=streakfx1,scores={killstreak=5..}] run function sfa:cosmetics/eyes
-execute as @a[tag=shirt1] run function sfa:cosmetics/shirt1
-execute as @a[tag=pants1] run function sfa:cosmetics/pants1
-execute as @a[tag=boots1] run function sfa:cosmetics/boots1
+
 
 #for knockback but no damage
 effect give @a minecraft:resistance 2 5 true
